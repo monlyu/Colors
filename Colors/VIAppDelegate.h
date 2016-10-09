@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "VIColorFiled.h"
 
 @interface VIAppDelegate : NSObject <NSApplicationDelegate>
 

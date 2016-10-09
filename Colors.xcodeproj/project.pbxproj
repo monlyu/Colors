@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D23012C187E300F000D315D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D23012B187E300F000D315D /* Images.xcassets */; };
 		4D73C1B0187ADF6500C9C0E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D73C1AF187ADF6500C9C0E6 /* Cocoa.framework */; };
 		4D73C1BA187ADF6500C9C0E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D73C1B8187ADF6500C9C0E6 /* InfoPlist.strings */; };
 		4D73C1BC187ADF6500C9C0E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D73C1BB187ADF6500C9C0E6 /* main.m */; };
 		4D73C1C0187ADF6500C9C0E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D73C1BE187ADF6500C9C0E6 /* Credits.rtf */; };
 		4D73C1C3187ADF6500C9C0E6 /* VIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D73C1C2187ADF6500C9C0E6 /* VIAppDelegate.m */; };
 		4D73C1C6187ADF6500C9C0E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D73C1C4187ADF6500C9C0E6 /* MainMenu.xib */; };
-		4D73C1C8187ADF6500C9C0E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D73C1C7187ADF6500C9C0E6 /* Images.xcassets */; };
 		4D73C1CF187ADF6500C9C0E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D73C1CE187ADF6500C9C0E6 /* XCTest.framework */; };
 		4D73C1D0187ADF6500C9C0E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D73C1AF187ADF6500C9C0E6 /* Cocoa.framework */; };
 		4D73C1D8187ADF6500C9C0E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D73C1D6187ADF6500C9C0E6 /* InfoPlist.strings */; };
 		4D73C1DA187ADF6500C9C0E6 /* ColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D73C1D9187ADF6500C9C0E6 /* ColorsTests.m */; };
+		4D73C1E5187AE13800C9C0E6 /* VIColorFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D73C1E4187AE13800C9C0E6 /* VIColorFiled.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D23012B187E300F000D315D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D73C1AC187ADF6500C9C0E6 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D73C1AF187ADF6500C9C0E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4D73C1B2187ADF6500C9C0E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -44,12 +46,13 @@
 		4D73C1C1187ADF6500C9C0E6 /* VIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIAppDelegate.h; sourceTree = "<group>"; };
 		4D73C1C2187ADF6500C9C0E6 /* VIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIAppDelegate.m; sourceTree = "<group>"; };
 		4D73C1C5187ADF6500C9C0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4D73C1C7187ADF6500C9C0E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D73C1CD187ADF6500C9C0E6 /* ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D73C1CE187ADF6500C9C0E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4D73C1D5187ADF6500C9C0E6 /* ColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorsTests-Info.plist"; sourceTree = "<group>"; };
 		4D73C1D7187ADF6500C9C0E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D73C1D9187ADF6500C9C0E6 /* ColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsTests.m; sourceTree = "<group>"; };
+		4D73C1E3187AE13800C9C0E6 /* VIColorFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIColorFiled.h; sourceTree = "<group>"; };
+		4D73C1E4187AE13800C9C0E6 /* VIColorFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIColorFiled.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +121,10 @@
 				4D73C1C1187ADF6500C9C0E6 /* VIAppDelegate.h */,
 				4D73C1C2187ADF6500C9C0E6 /* VIAppDelegate.m */,
 				4D73C1C4187ADF6500C9C0E6 /* MainMenu.xib */,
-				4D73C1C7187ADF6500C9C0E6 /* Images.xcassets */,
 				4D73C1B6187ADF6500C9C0E6 /* Supporting Files */,
+				4D73C1E3187AE13800C9C0E6 /* VIColorFiled.h */,
+				4D73C1E4187AE13800C9C0E6 /* VIColorFiled.m */,
+				4D23012B187E300F000D315D /* Images.xcassets */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -232,8 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D73C1BA187ADF6500C9C0E6 /* InfoPlist.strings in Resources */,
-				4D73C1C8187ADF6500C9C0E6 /* Images.xcassets in Resources */,
 				4D73C1C0187ADF6500C9C0E6 /* Credits.rtf in Resources */,
+				4D23012C187E300F000D315D /* Images.xcassets in Resources */,
 				4D73C1C6187ADF6500C9C0E6 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +260,7 @@
 			files = (
 				4D73C1BC187ADF6500C9C0E6 /* main.m in Sources */,
 				4D73C1C3187ADF6500C9C0E6 /* VIAppDelegate.m in Sources */,
+				4D73C1E5187AE13800C9C0E6 /* VIColorFiled.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Colors/Colors-Prefix.pch";
 				INFOPLIST_FILE = "Colors/Colors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Colors/Colors-Prefix.pch";
 				INFOPLIST_FILE = "Colors/Colors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,6 +473,7 @@
 				4D73C1DF187ADF6500C9C0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D73C1E0187ADF6500C9C0E6 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +482,7 @@
 				4D73C1E2187ADF6500C9C0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
